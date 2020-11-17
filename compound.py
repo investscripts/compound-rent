@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 IA = int(input("Initial Amount "))
 print("Starting With $", IA,"USD")
