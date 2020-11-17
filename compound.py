@@ -2,15 +2,19 @@
 
 IA = int(input("Initial Amount "))
 print("Starting With $", IA,"USD")
+print("")
 
 Num_Months = int(input("Number Of Months To Calculate "))
 print("Calculating", Num_Months, "Months")
+print("")
 
 contributions = int(input("Expected Monthly Personal Contributions "))
 
 print("You're contributing $",contributions,"USD Monthly")
+print("")
 
 external_contribution = int(input("Monthly Rental Cashflow "))
+print("")
 
 total = previous_50k = IA
 for i in range(1,Num_Months):
